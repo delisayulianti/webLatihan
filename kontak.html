@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak Saya - Delisa</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #5e005e;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: #ffe6f0;
+      padding: 30px;
+      border-radius: 25px;
+      border: 5px dashed hotpink;
+      box-shadow: 0 0 20px rgba(255, 105, 180, 0.4);
+    }
+    h2 {
+      text-align: center;
+      color: deeppink;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid pink;
+      border-radius: 12px;
+      margin-top: 5px;
+      font-size: 16px;
+      background-color: #fffafa;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      background-color: hotpink;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: deeppink;
+    }
+
+    .decoration {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="decoration">💌🎀🌸</div>
+    <h2>Kontak Saya</h2>
+
+    <form>
+      <label for="name">Nama Lengkap:</label>
+      <input type="text" id="name" name="name" placeholder="Masukkan namamu...">
+
+      <label for="email">Alamat Email:</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan emailmu">
+
+      <label for="message">Pesan:</label>
+      <textarea id="message" name="message" placeholder="Tulis pesanmu di sini..."></textarea>
+
+      <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <div class="note">Terima kasih sudah menghubungi! 💖</div>
+  </div>
+</body>
+</html>
